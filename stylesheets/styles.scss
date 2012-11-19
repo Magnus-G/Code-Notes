@@ -1,3 +1,22 @@
+$tbcolor: #AD141E;
+$textlight: #666;
+
+$wrapper: 650px;
+
+@mixin linear-gradient($top, $bottom) {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $top), color-stop(100%, $bottom));
+  background: -webkit-linear-gradient($top, $bottom);
+  background: -moz-linear-gradient($top, $bottom);
+  background: -o-linear-gradient($top, $bottom);
+  background: -ms-linear-gradient($top, $bottom);
+  background: linear-gradient($top, $bottom);
+}
+
+
+@mixin background() {
+  background: url(../images/cream-dust.png) white;
+}
+
 @font-face {
   font-family: 'Quattrocento Sans';
   src: url("../fonts/quattrocentosans-bold-webfont.eot");
@@ -45,7 +64,6 @@
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-/* line 77, scss/styles.scss */
 article,
 aside,
 details,
@@ -63,7 +81,6 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-/* line 86, scss/styles.scss */
 audio,
 canvas,
 video {
@@ -75,7 +92,6 @@ video {
 /*
  * Prevents modern browsers from displaying 'audio' without controls
  */
-/* line 95, scss/styles.scss */
 audio:not([controls]) {
   display: none;
 }
@@ -84,7 +100,6 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-/* line 103, scss/styles.scss */
 [hidden] {
   display: none;
 }
@@ -98,7 +113,6 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-/* line 116, scss/styles.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -111,7 +125,6 @@ html {
 /*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
-/* line 132, scss/styles.scss */
 html,
 button,
 input,
@@ -123,7 +136,6 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-/* line 139, scss/styles.scss */
 body {
   margin: 0;
 }
@@ -134,7 +146,6 @@ body {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-/* line 149, scss/styles.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -143,7 +154,6 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-/* line 158, scss/styles.scss */
 a:hover,
 a:active {
   outline: 0;
@@ -156,37 +166,31 @@ a:active {
  * Addresses font sizes and margins set differently in IE6/7
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
-/* line 169, scss/styles.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 174, scss/styles.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 179, scss/styles.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 184, scss/styles.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 189, scss/styles.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 194, scss/styles.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
@@ -195,7 +199,6 @@ h6 {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-/* line 202, scss/styles.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -203,13 +206,11 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
 */
-/* line 210, scss/styles.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 214, scss/styles.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -217,7 +218,6 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-/* line 221, scss/styles.scss */
 dfn {
   font-style: italic;
 }
@@ -225,7 +225,6 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-/* line 228, scss/styles.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -234,7 +233,6 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 237, scss/styles.scss */
 p,
 pre {
   margin: 1em 0;
@@ -244,7 +242,6 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-/* line 248, scss/styles.scss */
 pre,
 code,
 kbd,
@@ -259,20 +256,17 @@ samp {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-/* line 259, scss/styles.scss */
 q {
   quotes: none;
 }
 
 /* 2 */
-/* line 265, scss/styles.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 270, scss/styles.scss */
 small {
   font-size: 75%;
 }
@@ -281,7 +275,6 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-/* line 279, scss/styles.scss */
 sub,
 sup {
   font-size: 75%;
@@ -290,12 +283,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 286, scss/styles.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 290, scss/styles.scss */
 sub {
   bottom: -0.25em;
 }
@@ -306,7 +297,6 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 303, scss/styles.scss */
 dl,
 menu,
 ol,
@@ -314,7 +304,6 @@ ul {
   margin: 1em 0;
 }
 
-/* line 307, scss/styles.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -322,7 +311,6 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-/* line 316, scss/styles.scss */
 menu,
 ol,
 ul {
@@ -332,7 +320,6 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7
  */
-/* line 324, scss/styles.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -347,7 +334,6 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-/* line 337, scss/styles.scss */
 img {
   border: 0;
   /* 1 */
@@ -358,7 +344,6 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-/* line 347, scss/styles.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -369,7 +354,6 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-/* line 357, scss/styles.scss */
 figure {
   margin: 0;
 }
@@ -380,7 +364,6 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-/* line 367, scss/styles.scss */
 form {
   margin: 0;
 }
@@ -388,7 +371,6 @@ form {
 /*
  * Define consistent border, margin, and padding
  */
-/* line 374, scss/styles.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -400,7 +382,6 @@ fieldset {
  * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-/* line 385, scss/styles.scss */
 legend {
   border: 0;
   /* 1 */
@@ -416,7 +397,6 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-/* line 403, scss/styles.scss */
 button,
 input,
 select,
@@ -434,7 +414,6 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-/* line 418, scss/styles.scss */
 button,
 input {
   line-height: normal;
@@ -447,7 +426,6 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-/* line 432, scss/styles.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -463,7 +441,6 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-/* line 445, scss/styles.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -475,7 +452,6 @@ input[disabled] {
  * 3. Removes excess padding in IE7
       Known issue: excess padding remains in IE6
  */
-/* line 456, scss/styles.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -492,7 +468,6 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-/* line 471, scss/styles.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -505,7 +480,6 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-/* line 484, scss/styles.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -515,7 +489,6 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-/* line 493, scss/styles.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -526,7 +499,6 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-/* line 502, scss/styles.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -540,99 +512,83 @@ textarea {
 /*
  * Remove most spacing between table cells
  */
-/* line 515, scss/styles.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 520, scss/styles.scss */
 body {
   font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666666;
+  color: $textlight;
   font-weight: 300;
   margin: 0px;
   padding: 0px 0 20px 0px;
-  background: url(../images/cream-dust.png) white;
+  @include background;
 }
 
-/* line 529, scss/styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #333;
   margin: 0 0 10px;
 }
 
-/* line 534, scss/styles.scss */
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
 }
 
-/* line 538, scss/styles.scss */
 h1, h2, h3 {
   line-height: 1.1;
 }
 
-/* line 542, scss/styles.scss */
 h1 {
   font-size: 28px;
 }
 
-/* line 546, scss/styles.scss */
 h2 {
   font-size: 24px;
   color: #393939;
 }
 
-/* line 551, scss/styles.scss */
 h3, h4, h5, h6 {
-  color: #666666;
+  color: $textlight;
 }
 
-/* line 555, scss/styles.scss */
 h3 {
   font-size: 18px;
   line-height: 24px;
 }
 
-/* line 560, scss/styles.scss */
 a {
   color: #3399cc;
   font-weight: 400;
   text-decoration: none;
 }
 
-/* line 566, scss/styles.scss */
 a small {
   font-size: 11px;
-  color: #666666;
+  color: $textlight;
   margin-top: -0.6em;
   display: block;
 }
 
-/* line 573, scss/styles.scss */
 ul {
   list-style-image: url("../images/bullet.png");
 }
 
-/* line 577, scss/styles.scss */
 strong {
   font-weight: bold;
   color: #333;
 }
 
-/* line 582, scss/styles.scss */
 .wrapper {
   width: 650px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 588, scss/styles.scss */
 section img {
   max-width: 100%;
 }
 
-/* line 592, scss/styles.scss */
 blockquote {
   border-left: 1px solid #ffcc00;
   margin: 0;
@@ -640,11 +596,11 @@ blockquote {
   font-style: italic;
 }
 
-/* line 599, scss/styles.scss */
 code {
   font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size: 13px;
-  color: #666666;
+  color: $textlight;
+  // text-shadow: 0px 1px 0px #000;
   margin: 0 4px;
   padding: 2px 6px;
   background: whiteSmoke;
@@ -656,7 +612,6 @@ code {
   border-radius: 2px;
 }
 
-/* line 615, scss/styles.scss */
 pre {
   padding: 8px 15px;
   background: #FAFAFA;
@@ -671,20 +626,16 @@ pre {
   overflow: auto;
   overflow-y: hidden;
 }
-
-/* line 629, scss/styles.scss */
 pre code {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 634, scss/styles.scss */
 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-/* line 639, scss/styles.scss */
 th {
   text-align: left;
   padding: 5px 10px;
@@ -692,20 +643,16 @@ th {
   color: #444;
 }
 
-/* line 646, scss/styles.scss */
 td {
   text-align: left;
   padding: 5px 10px;
   border-bottom: 1px solid #e5e5e5;
   border-right: 1px solid #ffcc00;
 }
-
-/* line 652, scss/styles.scss */
 td:first-child {
   border-left: 1px solid #ffcc00;
 }
 
-/* line 656, scss/styles.scss */
 hr {
   border: 0;
   outline: none;
@@ -714,51 +661,63 @@ hr {
   margin: 0 0 20px;
 }
 
-/* line 664, scss/styles.scss */
 dt {
   color: #444;
   font-weight: 700;
 }
 
-/* line 674, scss/styles.scss */
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 header {
   padding: 69px 20px 20px 0px;
   margin: 0;
+  // position: fixed;
+
   top: 20px;
   left: 0;
   right: 0;
   width: 100%;
+  //@include background;
+  // text-align: center;
   background-color: #971515;
+  // background: url(../images/background.png) #4276b6;
+  // -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
+  // -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
+  // -o-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
+  // box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   z-index: 99;
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
-}
-/* line 694, scss/styles.scss */
-header h1 {
-  font: 40px/48px "Quattrocento Sans", Helvetica, Arial, sans-serif;
-  color: white;
-  font-weight: bolder;
-  text-transform: title;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 650px;
-  margin: auto;
-  margin-bottom: 0px;
-  -o-text-overflow: ellipsis;
-  -ms-text-overflow: ellipsis;
-}
-/* line 709, scss/styles.scss */
-header p {
-  color: #FFC3C3;
-  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
-  width: 650px;
-  font-size: 18px;
-  margin: auto;
-  margin-bottom: 12px;
+  h1 {
+    font: 40px/48px "Quattrocento Sans", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-transform: title;
+    // text-shadow: 0px 1px 2px gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: $wrapper;
+    margin: auto;
+    margin-bottom: 0px;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+  }
+  p {
+    color: #FFC3C3;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+    width: $wrapper;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 12px;
+  }
 }
 
-/* line 721, scss/styles.scss */
+
+
 #banner {
   z-index: 100;
   left: 0;
@@ -768,8 +727,8 @@ header p {
   margin-right: -382px;
   position: fixed;
   top: 0px;
-  background: #ad141e;
-  border: 1px solid #96111a;
+  background: $tbcolor;
+  border: 1px solid darken($tbcolor, 5%);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
@@ -781,119 +740,98 @@ header p {
   -khtml-border-radius: 0px 2px 2px 0px;
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
-}
-/* line 744, scss/styles.scss */
-#banner .button {
-  border: 1px solid #7f0f16;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ad141e), color-stop(100%, #bf1621));
-  background: -webkit-linear-gradient(#ad141e, #bf1621);
-  background: -moz-linear-gradient(#ad141e, #bf1621);
-  background: -o-linear-gradient(#ad141e, #bf1621);
-  background: -ms-linear-gradient(#ad141e, #bf1621);
-  background: linear-gradient(#ad141e, #bf1621);
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
-  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.1);
-  background-color: #ad141e;
-  margin-left: 5px;
-  padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
-  color: #f39aa0;
-  font-weight: bold;
-  display: inline-block;
-  text-align: center;
-}
-/* line 767, scss/styles.scss */
-#banner .button strong {
-  color: #f39aa0;
-}
-/* line 770, scss/styles.scss */
-#banner .button:hover {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ad141e), color-stop(100%, #ad141e));
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cd1824), color-stop(100%, #bf1621));
-  background: -webkit-linear-gradient(#cd1824, #bf1621);
-  background: -moz-linear-gradient(#cd1824, #bf1621);
-  background: -o-linear-gradient(#cd1824, #bf1621);
-  background: -ms-linear-gradient(#cd1824, #bf1621);
-  background: linear-gradient(#cd1824, #bf1621);
-  background-color: #ffeca0;
-}
-/* line 775, scss/styles.scss */
-#banner .button:active {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ad141e), color-stop(100%, #ad141e));
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9b121b), color-stop(100%, #a4131c));
-  background: -webkit-linear-gradient(#9b121b, #a4131c);
-  background: -moz-linear-gradient(#9b121b, #a4131c);
-  background: -o-linear-gradient(#9b121b, #a4131c);
-  background: -ms-linear-gradient(#9b121b, #a4131c);
-  background: linear-gradient(#9b121b, #a4131c);
-  background-color: #ffeca0;
-}
-/* line 781, scss/styles.scss */
-#banner .fork {
-  position: fixed;
-  right: 274px;
-  padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
-  background-color: #FFE788;
-}
-/* line 792, scss/styles.scss */
-#banner .downloads {
-  float: right;
-  margin: 0 55px 0 0;
-}
-/* line 795, scss/styles.scss */
-#banner .downloads span {
-  float: left;
-  line-height: 52px;
-  font-size: 90%;
-  color: #f39aa0;
-  text-transform: uppercase;
-  text-shadow: rgba(255, 255, 255, 0.2) 0 1px 0;
-}
-/* line 804, scss/styles.scss */
-#banner ul {
-  list-style: none;
-  height: 40px;
-  padding: 0;
-  float: left;
-  margin-left: 10px;
-}
-/* line 810, scss/styles.scss */
-#banner ul li {
-  display: inline;
-}
-/* line 812, scss/styles.scss */
-#banner ul li a.button {
-  background-color: #FFE788;
-}
-/* line 817, scss/styles.scss */
-#banner #logo {
-  position: absolute;
-  height: 36px;
-  width: 36px;
-  right: 20px;
-  top: 7px;
-  display: block;
-  background: url(../images/octocat-logo.png);
+
+  .button {
+    border: 1px solid darken($tbcolor, 10%);
+    @include linear-gradient($tbcolor, lighten($tbcolor, 4));
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $tbcolor;
+    margin-left: 5px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    color: lighten($tbcolor, 40%);
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    strong {
+      color: lighten($tbcolor, 40%);
+    }
+    &:hover {
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $tbcolor), color-stop(100%, $tbcolor));
+      @include linear-gradient(lighten($tbcolor, 7%), lighten($tbcolor, 4));
+      background-color: #ffeca0;
+    }
+    &:active {
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $tbcolor), color-stop(100%, $tbcolor));
+      @include linear-gradient(darken($tbcolor, 4%), darken($tbcolor, 2));
+      background-color: #ffeca0;
+    }
+  }
+  .fork {
+    position: fixed;
+    // left: 50%;
+    right: 274px;
+    // margin-left: -325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #FFE788;
+  }
+  .downloads {
+    float: right;
+    margin: 0 55px 0 0;
+    span {
+      float: left;
+      line-height: 52px;
+      font-size: 90%;
+      color: lighten($tbcolor, 40%);
+      text-transform: uppercase;
+      text-shadow: rgba(255, 255, 255, 0.2) 0 1px 0;
+    }
+  }
+  ul {
+    list-style: none;
+    height: 40px;
+    padding: 0;
+    float: left;
+    margin-left: 10px;
+    li {
+      display: inline;
+      a.button {
+        background-color: #FFE788;
+      }
+    }
+  }
+  #logo {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    right: 20px;
+    top: 7px;
+    display: block;
+    background: url(../images/octocat-logo.png);
+  }
 }
 
-/* line 830, scss/styles.scss */
+
+
 section {
   width: 590px;
   padding: 30px 30px 50px 30px;
   margin: 31px 0;
+  // margin-top: 210px;
   position: relative;
   background: #fbfbfb;
   -moz-border-radius: 3px;
@@ -909,15 +847,13 @@ section {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
 }
 
-/* line 850, scss/styles.scss */
 small {
   font-size: 12px;
 }
 
-/* line 854, scss/styles.scss */
 nav {
   background: url(../images/ralph.png);
-  background-position: 160px 0px;
+  background-position:160px 0px;
   background-repeat: no-repeat;
   width: 230px;
   position: fixed;
@@ -926,8 +862,6 @@ nav {
   margin-left: -580px;
   text-align: right;
 }
-
-/* line 865, scss/styles.scss */
 nav ul {
   list-style: none;
   list-style-image: none;
@@ -935,57 +869,56 @@ nav ul {
   line-height: 24px;
   margin-top: 125px;
 }
-
-/* line 872, scss/styles.scss */
 nav ul li {
   padding: 5px 0px;
   line-height: 16px;
 }
-
-/* line 876, scss/styles.scss */
 nav ul li.tag-h1 {
   font-size: 1.2em;
 }
-
-/* line 879, scss/styles.scss */
 nav ul li.tag-h1 a {
   font-weight: bold;
   color: #333;
 }
-
-/* line 883, scss/styles.scss */
 nav ul li.tag-h2 + .tag-h1 {
   margin-top: 10px;
 }
-
-/* line 886, scss/styles.scss */
 nav ul a {
-  color: #666666;
+  color: $textlight;
+}
+nav ul a:hover {
+  color: $tbcolor;
+  // color: #999;
 }
 
-/* line 889, scss/styles.scss */
-nav ul a:hover {
-  color: #ad141e;
+footer {
+  // width: 180px;
+  // position: fixed;
+  // left: 50%;
+  // margin-left: -530px;
+  // bottom: 20px;
+  // text-align: right;
+  // line-height: 16px;
 }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 @media print, screen and (max-width: 1060px) {
-  /* line 910, scss/styles.scss */
   div.wrapper {
     width: auto;
     margin: 0;
   }
 
-  /* line 915, scss/styles.scss */
   nav {
     display: none;
   }
 
-  /* line 919, scss/styles.scss */
   header, section, footer {
     float: none;
   }
-
-  /* line 922, scss/styles.scss */
   header h1, section h1, footer h1 {
     white-space: nowrap;
     overflow: hidden;
@@ -994,26 +927,22 @@ nav ul a:hover {
     -ms-text-overflow: ellipsis;
   }
 
-  /* line 930, scss/styles.scss */
   #banner {
     width: 100%;
-  }
-  /* line 932, scss/styles.scss */
-  #banner .fork {
-    right: 295px;
-  }
+    .fork {
+      right: 295px;
+    }
 
-  /* line 937, scss/styles.scss */
+  }
   #banner .downloads {
     margin-right: 75px;
   }
 
-  /* line 942, scss/styles.scss */
+
   #banner #logo {
     margin-right: 15px;
   }
 
-  /* line 946, scss/styles.scss */
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -1022,7 +951,6 @@ nav ul a:hover {
     max-width: 600px;
   }
 
-  /* line 954, scss/styles.scss */
   footer {
     text-align: center;
     margin: 20px auto;
@@ -1032,19 +960,18 @@ nav ul a:hover {
     width: auto;
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 @media print, screen and (max-width: 720px) {
-  /* line 967, scss/styles.scss */
   body {
     word-wrap: break-word;
   }
 
-  /* line 971, scss/styles.scss */
   header {
     padding: 60px 20px 15px 20px;
     margin: 0;
   }
-
-  /* line 975, scss/styles.scss */
   header h1 {
     font-size: 32px;
     white-space: nowrap;
@@ -1053,13 +980,13 @@ nav ul a:hover {
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
   }
+  header p {
 
-  /* line 987, scss/styles.scss */
+  }
+
   #banner {
     top: 0px;
   }
-
-  /* line 990, scss/styles.scss */
   #banner .fork {
     float: left;
     display: inline-block;
@@ -1068,28 +995,26 @@ nav ul a:hover {
     left: 20px;
   }
 
-  /* line 998, scss/styles.scss */
   section {
     margin-top: 0px;
     margin-bottom: 0px;
     width: auto;
   }
 
-  /* line 1004, scss/styles.scss */
   header ul, header p.view {
     position: static;
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 @media print, screen and (max-width: 480px) {
-  /* line 1012, scss/styles.scss */
   header {
     position: relative;
     padding: 5px 20px;
     min-height: 0px;
     margin-top: -20px;
   }
-
-  /* line 1018, scss/styles.scss */
   header h1 {
     font-size: 24px;
     white-space: nowrap;
@@ -1099,31 +1024,32 @@ nav ul a:hover {
     -ms-text-overflow: ellipsis;
   }
 
-  /* line 1027, scss/styles.scss */
   section {
     margin-top: 5px;
   }
 
-  /* line 1031, scss/styles.scss */
   #banner {
     display: none;
   }
 
-  /* line 1035, scss/styles.scss */
   header ul {
     display: none;
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 @media print {
-  /* line 1043, scss/styles.scss */
   body {
     padding: 0.4in;
     font-size: 12pt;
     color: #444;
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 @media print, screen and (max-height: 680px) {
-  /* line 1053, scss/styles.scss */
   footer {
     text-align: center;
     margin: 20px auto;
@@ -1133,13 +1059,14 @@ nav ul a:hover {
     width: auto;
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 @media print, screen and (max-height: 480px) {
-  /* line 1066, scss/styles.scss */
   nav {
     display: none;
   }
 
-  /* line 1070, scss/styles.scss */
   footer {
     text-align: center;
     margin: 20px auto;
