@@ -1,0 +1,897 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"words",
+				"words2"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"des",
+				"desaturate"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"all",
+				"all-locations-filter"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"current",
+				"current_stage"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"de",
+				"developer"
+			],
+			[
+				"app",
+				"applicant"
+			],
+			[
+				"a",
+				"applicant"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"headerbutton",
+				"headerbuttontext"
+			],
+			[
+				"designer",
+				"designerback"
+			],
+			[
+				"line",
+				"linear-gradient"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"info",
+				"info-links"
+			],
+			[
+				"dev",
+				"devback"
+			],
+			[
+				"card",
+				"cardcolor"
+			],
+			[
+				"car",
+				"card-resume"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"cont",
+				"control-back"
+			],
+			[
+				"text-sh",
+				"text-shadow"
+			],
+			[
+				"text-",
+				"text-shadow"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"he",
+				"Helvetica"
+			],
+			[
+				"applicant",
+				"applicant_stage"
+			],
+			[
+				"cu",
+				"current_stage"
+			],
+			[
+				"padding",
+				"padding-left	zen:css_properties"
+			],
+			[
+				"bord",
+				"border-bottom	zen:css_properties"
+			],
+			[
+				"fon",
+				"font-family	zen:css_properties"
+			],
+			[
+				"in",
+				"info-links"
+			],
+			[
+				"hei",
+				"height	zen:css_properties"
+			],
+			[
+				"ma",
+				"margin-right	zen:css_properties"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ri",
+				"right	zen:css_properties"
+			],
+			[
+				"min",
+				"min-height	zen:css_properties"
+			],
+			[
+				"p",
+				"p-size"
+			],
+			[
+				"h",
+				"height	zen:css_properties"
+			],
+			[
+				"max",
+				"max-width	zen:css_properties"
+			],
+			[
+				"border-co",
+				"border-color	zen:css_properties"
+			],
+			[
+				"vertic",
+				"vertical-centering"
+			],
+			[
+				"verti",
+				"vertical-centering"
+			],
+			[
+				"str",
+				"strong"
+			],
+			[
+				"backg",
+				"background-color	zen:css_properties"
+			],
+			[
+				"wi",
+				"width	zen:css_properties"
+			],
+			[
+				"header",
+				"header-gradient-bottom"
+			],
+			[
+				"col",
+				"column-gap	zen:css_properties"
+			],
+			[
+				"border-c",
+				"border-color	zen:css_properties"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"set sy",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set h",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Magnus/Dropbox/design/thoughtbot/Gihub pages themes/Red Style for GitHub Page",
+		"/Users/Magnus/Documents/test/neating/app/controllers/posts_controller.rb",
+		"/Users/Magnus/Documents/test/neating/config/routes.rb",
+		"/Users/Magnus/Documents/test/neating/app/controllers/application_controller.rb",
+		"/Users/Magnus/Documents/test/neating/config/database.yml",
+		"/Users/Magnus/Documents/thoughtbot/hiring/config/locales/en.yml",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/models/applicant.rb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/applicants/show.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/applicants/index.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/normalize.css",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/helpers/applicants_helper.rb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/javascripts/applicantFilters.js.coffee",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/models/user.rb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/base/_variables.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/shared/_header.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_layout.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_applicant.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/applicants/_applicant.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/shared/_footer.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/base/_forms.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/layouts/application.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/sessions/new.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/applicants/_form.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/shared/_header.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/shared/_header",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/base/_forms 2.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_cards.css.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_applicant 2.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/javascripts/applicantFilters.js",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_layout 2.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_cards.css.sass",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/controllers/applicants_controller.rb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/shared/_head.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/applicants/new.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/javascripts/autogrow.js",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/javascripts/jquery.js",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/base/_typography.scss",
+		"/Users/Magnus/Documents/test/testo/index.html",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/sessions/_form.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/comments/_comment.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_screen.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/_variables.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/application.css.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/Gemfile",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/application/_flashes.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets/vendor/skeleton.scss",
+		"/Users/Magnus/Documents/thoughtbot/hiring/app/views/login/login.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/views/layouts/application.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/trajectory/app/views/shared/_navigation.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/_request.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/shared/_header.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/layouts/application.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/_hedge_funds.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/_intro.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/shared/_header_requesting.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/_splash.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/shared/_head.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/_allocators.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/_compliance.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/landing/index.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/shared/_footer.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/about/about.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_mobile.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/_mobile.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/base/_forms.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/base/_layout.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/landing.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/application.css.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_invitations.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_navigation.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_profile-summary.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/base/_forms.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_employees.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/base/_extends.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_profiles.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_header.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_funds.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_profile-expanded.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_documents.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_firms.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_tabs.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_dashboard.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_access-requests.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_filters.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/shared/_layout.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/controllers/firms_controller.rb",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/_offices.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/vendor/_soapbox_forms.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets/sessions.css.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/base/_typography.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/_request.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/_about.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/base/_variables.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared/_footer.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/base/_reset.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/_landing.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/vendor/_flexslider.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared/_header.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/_splash.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/application.css.scss",
+		"/Users/Magnus/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/_contact.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared/_signup.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared/_animations.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/Gemfile",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/contact/contact.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/config/routes.rb",
+		"/Users/Magnus/Documents/test/testcont/testcont.html",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/layouts/contact.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/layouts/about.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/contact/_contact.html.erb",
+		"/Users/Magnus/Documents/test/testslides/testslides.html",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/layouts/FAQ.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared/_layout.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views/index.html.erb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/controllers/home_controller.rb",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/application.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared/header.scss",
+		"/Users/Magnus/Documents/thoughtbot/fdn_market/app/views/shared/_header",
+		"/Users/Magnus/Documents/test/test3/test3.js",
+		"/Users/Magnus/Documents/test/test3/test3.scss",
+		"/Users/Magnus/Documents/test/test3/two.html",
+		"/Users/Magnus/Documents/test/rtest2/app/views/artiklar/index.html.erb",
+		"/Users/Magnus/Documents/test/rtest2/app/views/artiklar/_ny.html.erb",
+		"/Users/Magnus/Documents/test/rtest2/app/assets/stylesheets/base/_variables.scss",
+		"/Users/Magnus/Documents/test/rtest2/app/assets/stylesheets/shared/_typografi.scss",
+		"/Users/Magnus/Documents/test/rtest2/app/views/shared/_sidebar.html.erb",
+		"/Users/Magnus/Documents/test/rtest2/app/views/layouts/application.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/hiring/app/views",
+			"/Users/Magnus/Documents/thoughtbot/hiring",
+			"/Users/Magnus/Documents/thoughtbot/trajectory",
+			"/Users/Magnus/Documents/thoughtbot/trajectory/app/views",
+			"/Users/Magnus/Documents/thoughtbot/trajectory",
+			"/Users/Magnus/Documents/thoughtbot/trajectory/app/views",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/trajectory/app/views",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/trajectory/app/views",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/fdn/app/views",
+			"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets/shared",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/assets/stylesheets",
+			"/Users/Magnus/Documents/thoughtbot/fdn-public/app/views",
+			"/Users/Magnus/Documents/thoughtbot/fdn/app/views/firms",
+			"/Users/Magnus/Documents/thoughtbot/fdn/app/assets/stylesheets"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"margin",
+			"pre",
+			"neat",
+			"stockholm",
+			"logotext",
+			"shado",
+			"shadow",
+			"@include shadow",
+			"@mixin shadow",
+			"//////////////////////////////////////////////////////////////////////",
+			"border-bottom: 6px",
+			"border",
+			"technical",
+			"right",
+			"none",
+			"normalbutton",
+			"1px",
+			"hidden",
+			".l-2-width",
+			".l-4-width",
+			"l-flush-right",
+			"bodydark",
+			"current",
+			"tech",
+			"non",
+			"cell_for",
+			"info-top",
+			"hover",
+			"  @include highlight",
+			"text-shadow-dark",
+			"text-shadow-light",
+			"comment-user-name",
+			"list-name",
+			"info-color",
+			"states",
+			"nontechnical",
+			"neat",
+			"offer",
+			"Technical",
+			"interview",
+			"Nontechnical",
+			"hidden",
+			"small-font",
+			"text-shadow",
+			"states",
+			"$infotop",
+			"min",
+			"$infotop",
+			"l-flush",
+			"l-center",
+			"l-rounded",
+			"clearing",
+			"collapse",
+			"reject",
+			"advance",
+			"accept",
+			"darken(white",
+			"abbr",
+			".login",
+			"t-inset",
+			"@include states",
+			"base-inset",
+			"inset",
+			"javascript",
+			"focus",
+			"$base-color",
+			"$p-size",
+			"dista",
+			"border-radius",
+			"radio_buttons",
+			"controls",
+			"technical",
+			"Nontechnical ",
+			"San Fransisco",
+			"successfully",
+			"ul",
+			"$base_color",
+			"$p_size",
+			"body_class",
+			"page_title",
+			"Email",
+			"text_fiels",
+			"story_development_needed",
+			"stories-show",
+			"310px",
+			"width",
+			"chzn-container",
+			"existing_story_chzn",
+			"commit",
+			"chzn-container",
+			"existing_story_chzn",
+			"59px",
+			"310px",
+			"relative",
+			".container",
+			".sidebar",
+			"idea-right",
+			".chzn-container",
+			"existing_story_chzn",
+			"310px",
+			"existing_story_chzn",
+			"ideas",
+			"svg-image",
+			"svg-images",
+			"stories",
+			"class=\"svg-image\"",
+			"twocol",
+			"25%",
+			"900px",
+			"50px",
+			"top",
+			"std",
+			"img",
+			"text-decoration",
+			"preheadercontent",
+			"width",
+			"Arial",
+			"state",
+			"section.profile-summary",
+			"profile-summary",
+			"signup-logotype",
+			"new_user",
+			"primary-nav",
+			"nav-dashboard",
+			".logo",
+			"header-logo",
+			"logotype",
+			"span.hint"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$designerback",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			],
+			[
+				3,
+				0,
+				4,
+				1
+			],
+			[
+				4,
+				0,
+				5,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.288114620783,
+			0.52817868348,
+			0.735876500228,
+			0.956894966372,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"show",
+				"views/applicants/show.html.erb"
+			],
+			[
+				"_applicant",
+				"views/applicants/_applicant.html.erb"
+			],
+			[
+				"applicancon",
+				"hiring/app/controllers/applicants_controller.rb"
+			],
+			[
+				"applican",
+				"hiring/app/models/applicant.rb"
+			],
+			[
+				"",
+				"stylesheets/base/_typography 2.scss"
+			],
+			[
+				"applicant",
+				"hiring/app/models/applicant.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true
+}
