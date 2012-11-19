@@ -41,7 +41,7 @@
       <section>
         <h1>Rails</h1>
 
-<h4>Creating a Rails project</h4>
+<h2>Creating a Rails project</h2>
 
 <p>With the command line, navigate to where you want the project folder to be generated (e.g. documents/my_rails_projects/) and type the following to create a project called project_name: </p>
 
@@ -75,12 +75,12 @@ open project_name/config/routes.rb and under the first row, enter: </p>
 <p>In your browser, go to localhost:3000/posts.
 To stop the server, hit ctrl-C.</p>
 
-<h4>Generate a controller and action</h4>
+<h2>Generate a controller and action</h2>
 
 <pre><code>rails g controller &lt;controller name&gt; &lt;action&gt;
 </code></pre>
 
-<h4>Change layout for entire Controller</h4>
+<h2>Change layout for entire Controller</h2>
 
 <pre><code>class ProductsController &lt; ApplicationController
   layout "inventory"
@@ -89,7 +89,7 @@ end
 
 <p>This is commonly used when ...</p>
 
-<h4>Change layout for Controller ACTION</h4>
+<h2>Change layout for Controller ACTION</h2>
 
 <pre><code>class ProductsController &lt; ApplicationController
   def index
@@ -100,7 +100,7 @@ end
 
 <p>This is commonly used when ...</p>
 
-<h4>If server doesn't start: Migrate the database</h4>
+<h2>If server doesn't start: Migrate the database</h2>
 
 <pre><code>bundle exec rake db:migrate
 </code></pre>
@@ -109,21 +109,37 @@ end
 
 <h1>HTML.ERB</h1>
 
-<h4>Create a text link</h4>
+<h2>Create a text link</h2>
 
 <pre><code>&lt;%= link_to “Go Home”, root_path %&gt;
 </code></pre>
 
 <p>"Go Home" is the text shown for the link.</p>
 
-<h4>Wrap an image, declared in the HTML, in a link</h4>
+<h2>Repeat elements</h2>
+
+<pre><code>&lt;% 3.times do %&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;% end %&gt;
+</code></pre>
+
+<h2>Render a partial</h2>
+
+<pre><code>&lt;%= render 'sidebar' %&gt;
+</code></pre>
+
+<p>When saving partials, make sure their names start with an underscore and have the file type _PARTIAL.html.erb. They should not be called with an underscore though.</p>
+
+<h1>Images</h1>
+
+<h2>Wrap an image in a link (HTML)</h2>
 
 <pre><code>&lt;%= link_to root_path, :id =&gt; "root" do %&gt;
   &lt;img /&gt;
 &lt;% end %&gt;
 </code></pre>
 
-<h4>Wrap an image, declared in the SCSS, in a link</h4>
+<h2>Wrap an image in a link (CSS)</h2>
 
 <pre><code>&lt;%= link_to('', root_path, class: 'my_image') %&gt;
 </code></pre>
@@ -131,45 +147,29 @@ end
 <p>In the SCSS, use the "my_image" class to add background-image, or other styling.
 The '' makes sure no text is used for the link.</p>
 
-<h4>Repeat elements</h4>
-
-<pre><code>&lt;% 3.times do %&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;% end %&gt;
-</code></pre>
-
-<h4>Render a partial</h4>
-
-<pre><code>&lt;%= render 'sidebar' %&gt;
-</code></pre>
-
-<p>When saving partials, make sure their names start with an underscore and have the file type _PARTIAL.html.erb. They should not be called with an underscore though.</p>
-
-<h3>Images</h3>
-
-<h4>Insert an image with a class</h4>
+<h2>Insert an image with a class</h2>
 
 <pre><code>&lt;%= image_tag('divider_arrow.png', :class =&gt; "arrow") %&gt;
 </code></pre>
 
-<h4>Insert an image using the asset pipeline</h4>
+<h2>Insert an image using the asset pipeline</h2>
 
 <pre><code>&lt;%= image_tag("foo.png") %&gt;
 </code></pre>
 
-<h4>Linking Javascript assets</h4>
+<h2>Linking Javascript assets</h2>
 
 <pre><code>&lt;%= javascript_include_tag "main", "columns" %&gt;
 </code></pre>
 
-<h4>Linking Stylesheet assets</h4>
+<h2>Linking Stylesheet assets</h2>
 
 <pre><code>&lt;%= stylesheet_link_tag "main", "columns" %&gt;
 </code></pre>
 
 <h1>CSS</h1>
 
-<h4>CSS Image Assets</h4>
+<h2>CSS Image Assets</h2>
 
 <pre><code>background: image_url("image.png");
 </code></pre>
