@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ruby-for-designers by Magnus-G</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Ruby-for-designers</h1>
+        <p>Ruby on Rails for Designers</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/Magnus-G/ruby-for-designers" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/Magnus-G/ruby-for-designers/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/Magnus-G/ruby-for-designers/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>Rails</h1>
+
+<h4>Creating a Rails project</h4>
+
+<p>With the command line, navigate to where you want the project folder to be generated (e.g. documents/my_rails_projects/) and type the following to create a project called project_name: </p>
+
+<pre><code>rails new project_name
+</code></pre>
+
+<p>Navigate to that folder and type the following to create a controller called posts:</p>
+
+<pre><code>rails g controller posts
+</code></pre>
+
+<p>In text editor, open the file project_name/app/controllers/posts_controller and make sure it says: </p>
+
+<pre><code>class PostsController &lt; ApplicationController
+  def index
+  end
+end
+</code></pre>
+
+<p>Navigate to project_name/app/views/posts/ and create the file index.html.erb in that folder
+open project_name/config/routes.rb and under the first row, enter: </p>
+
+<pre><code>resources :posts
+</code></pre>
+
+<p>With the command line tool, make sure you are have navigated to the project folder, then type:</p>
+
+<pre><code>rails s
+</code></pre>
+
+<p>In your browser, go to localhost:3000/posts.
+To stop the server, hit ctrl-C.</p>
+
+<h4>Generate a controller and action</h4>
+
+<pre><code>rails g controller &lt;controller name&gt; &lt;action&gt;
+</code></pre>
+
+<h4>Change layout for entire Controller</h4>
+
+<pre><code>class ProductsController &lt; ApplicationController
+  layout "inventory"
+end
+</code></pre>
+
+<p>This is commonly used when ...</p>
+
+<h4>Change layout for Controller ACTION</h4>
+
+<pre><code>class ProductsController &lt; ApplicationController
+  def index
+    render :layout =&gt; 'special_layout'
+  end
+end
+</code></pre>
+
+<p>This is commonly used when ...</p>
+
+<h4>If server doesn't start: Migrate the database</h4>
+
+<pre><code>bundle exec rake db:migrate 
+</code></pre>
+
+<p>This needs to be written into the command line if development has been been working on the database and the server doesn't start. </p>
+
+<h1>HTML.ERB</h1>
+
+<h4>Create a text link</h4>
+
+<pre><code>&lt;%= link_to “Go Home”, root_path %&gt;
+</code></pre>
+
+<p>"Go Home" is the text shown for the link.</p>
+
+<h4>Wrap an image, declared in the HTML, in a link</h4>
+
+<pre><code>&lt;%= link_to root_path, :id =&gt; "root" do %&gt;
+  &lt;img /&gt;
+&lt;% end %&gt;
+</code></pre>
+
+<h4>Wrap an image, declared in the SCSS, in a link</h4>
+
+<pre><code>&lt;%= link_to('', root_path, class: 'my_image') %&gt;
+</code></pre>
+
+<p>In the SCSS, use the "my_image" class to add background-image, or other styling.
+The '' makes sure no text is used for the link.</p>
+
+<h4>Repeat elements</h4>
+
+<pre><code>&lt;% 3.times do %&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;% end %&gt;
+</code></pre>
+
+<h4>Render a partial</h4>
+
+<pre><code>&lt;%= render 'sidebar' %&gt;
+</code></pre>
+
+<p>When saving partials, make sure their names start with an underscore and have the file type _PARTIAL.html.erb. They should not be called with an underscore though.</p>
+
+<h3>Images</h3>
+
+<h4>Insert an image with a class</h4>
+
+<pre><code>&lt;%= image_tag('divider_arrow.png', :class =&gt; "arrow") %&gt;
+</code></pre>
+
+<h4>Insert an image using the asset pipeline</h4>
+
+<pre><code>&lt;%= image_tag("foo.png") %&gt;
+</code></pre>
+
+<h4>Linking Javascript assets</h4>
+
+<pre><code>&lt;%= javascript_include_tag "main", "columns" %&gt;
+</code></pre>
+
+<h4>Linking Stylesheet assets</h4>
+
+<pre><code>&lt;%= stylesheet_link_tag "main", "columns" %&gt;
+</code></pre>
+
+<h1>CSS</h1>
+
+<h4>CSS Image Assets</h4>
+
+<pre><code>background: image_url("image.png");
+</code></pre>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/Magnus-G">Magnus-G</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
