@@ -51,6 +51,10 @@ In the 'layouts' folder under 'views' you can save different layout styles. In t
 
 This is commonly used when ...
 
+##If "database ... does not exist":
+
+    rake db:create db:migrate  
+
 ##If server doesn't start: Migrate the database
 
     bundle exec rake db:migrate  
