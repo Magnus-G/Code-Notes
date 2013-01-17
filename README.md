@@ -61,6 +61,10 @@ This is commonly used when ...
 
 This needs to be written into the command line if development has been been working on the database and the server doesn't start. 
 
+##psych errors. warning: already initialized constant ANY
+
+     bundle exec rails s
+
 ##Installing bourbon
 
 http://bourbon.io/
