@@ -141,6 +141,12 @@ Restart server after updating the rb file.
 In the SCSS, use the "my_image" class to add background-image, or other styling.
 The '' makes sure no text is used for the link.
 
+##External link
+
+     <%= link_to("http://www.dn.se") do %>
+       <img />   
+     <% end %>
+
 ##Repeat elements
 
     <% 3.times do %>
