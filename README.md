@@ -235,3 +235,7 @@ input_html: can be used for other things such as disabling text fields.
 
 
 ##Simpleform
+
+Add class to an input
+
+     <%= f.button :submit, :class => "btn" %>
