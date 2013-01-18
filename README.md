@@ -64,6 +64,21 @@ This needs to be written into the command line if development has been been work
 ##psych errors. warning: already initialized constant ANY
 
      bundle exec rails s
+     
+or
+
+     gem uninstall psych
+
+
+
+
+
+
+
+
+
+
+
 
 ##Installing bourbon
 
@@ -114,6 +129,14 @@ Simple and quick way is to download the customized css file from the bootstrap s
 
     @import "bootstrap.css.scss";
 
+
+
+
+
+
+
+
+
 #HTML.ERB
 
 ##Create a text link
@@ -158,6 +181,10 @@ The '' makes sure no text is used for the link.
     <%= render 'sidebar' %>
 
 When saving partials, make sure their names start with an underscore and have the file type _PARTIAL.html.erb. They should not be called with an underscore though.
+
+
+
+
 
 
 
