@@ -239,3 +239,7 @@ input_html: can be used for other things such as disabling text fields.
 Add class to an input
 
      <%= f.button :submit, :class => "btn" %>
+
+Textarea
+
+     <%= f.input :lesson, :as => :text, :input_html => { :rows => 2 } %>
