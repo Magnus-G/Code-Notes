@@ -215,6 +215,12 @@ When saving partials, make sure their names start with an underscore and have th
 
     background: image_url("image.png");
 
+
+
+
+
+
+
 #Forms
 
 ##Formtastic
@@ -235,6 +241,8 @@ input_html: can be used for other things such as disabling text fields.
 
 
 ##Simpleform
+
+https://github.com/plataformatec/simple_form
 
 Add class to an input
 
