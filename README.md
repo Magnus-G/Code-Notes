@@ -182,10 +182,13 @@ The '' makes sure no text is used for the link.
 
 ##Render a partial
 
-    <%= render 'sidebar' %>
+    <%= render 'folder/sidebar' %>
 
 When saving partials, make sure their names start with an underscore and have the file type _PARTIAL.html.erb. They should not be called with an underscore though.
 
+     <%= render purchaseable.events, section: purchaseable %>
+     
+This renders an array of events from the 'events' folder
 
 
 
