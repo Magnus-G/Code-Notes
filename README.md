@@ -229,7 +229,9 @@ This renders an array of events from the 'events' folder
 
 #Fonts
 
-##Fontello.com
+##Fontello
+
+http://fontello.com/
 
 Select files, download them and place the font files in assets/fonts. 
 In the HTML, declare the icon:
