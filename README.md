@@ -227,10 +227,36 @@ This renders an array of events from the 'events' folder
     background: image_url("image.png");
 
 
+#Fonts
 
+##Fontello.com
 
+Select files, download them and place the font files in assets/fonts. 
+In the HTML, declare the icon:
 
+    <i class="icon-export"></i>
+    
+In the SCSS, make sure all the file types are called for:
 
+    @font-face {
+    font-family: 'fontello';
+    src: url('fontello.eot');
+    src:url('fontello.eot?#iefix') format('embedded-opentype'),
+      url('fontello.svg#icomoon') format('svg'),
+      url('fontello.woff') format('woff'),
+      url('fontello.ttf') format('truetype');
+    }
+    
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before {
+    font-family: 'fontello';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    }
+    
+    .icon-export:before { content: '\e715'; } /* '' */
 
 #Forms
 
