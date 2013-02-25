@@ -148,18 +148,9 @@ Simple and quick way is to download the customized css file from the bootstrap s
 #HTML.ERB
 
 ##Create a text link
+http://guides.rubyonrails.org/routing.html
 
     <%= link_to 's', terms_path %>
-
-
-HTTP verb     Path	action	named helper
-GET	/photos	index	 images_path
-GET	/photos/new	new	 new_image_path
-POST	/photos	create	 images_path
-GET	/photos/:id	show	 image_path(:id)
-GET	/photos/:id/edit	edit	 edit_image_path(:id)
-PUT	/photos/:id	update	 image_path(:id)
-DELETE	/photos/:id	destroy	 image_path(:id)
 
 "Terms" is the text shown for the link. The path needs to exist in config/routes.rb
 e.g. 
