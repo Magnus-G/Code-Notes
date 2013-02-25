@@ -149,7 +149,7 @@ Simple and quick way is to download the customized css file from the bootstrap s
 
 ##Create a text link
 
-    <%= link_to “Terms”, terms_path %>
+    <%= link_to 'Terms', terms_path %>
 
 "Terms" is the text shown for the link. The path needs to exist in config/routes.rb
 e.g. 
