@@ -186,6 +186,8 @@ The '' makes sure no text is used for the link.
 
      <%= button_to "This is a link button", root_path, :method => "get", class: 'btn' %>
 
+##Internal link as a button (specific, generated page)
+
 To link to a page that is created, that is specific, go to controllers and the correct controller file 
 (e.g. if the page is a "race" then go to the "races_controller"). Find the 
 
