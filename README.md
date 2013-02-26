@@ -145,6 +145,9 @@ Simple and quick way is to download the customized css file from the bootstrap s
 
 
 
+
+
+
 #HTML.ERB
 
 ##Create a text link
@@ -160,13 +163,13 @@ e.g.
 for the link to the page "terms" under the folder "welcome".
 Restart server after updating the rb file.
 
-##Wrap an image, declared in the HTML, in a link
+##Image as link, declared in the HTML
 
     <%= link_to root_path, :id => "root" do %>
       <img />
     <% end %>
 
-##Wrap an image, declared in the SCSS, in a link
+##Image as link, declared in the SCSS
 
     <%= link_to('', root_path, class: 'my_image') %>
 
@@ -178,6 +181,10 @@ The '' makes sure no text is used for the link.
      <%= link_to("http://www.dn.se") do %>
        <img />   
      <% end %>
+
+##Internal link as button
+
+     <%= button_to "This is a link button", root_path, :method => "get", class: 'btn' %>
 
 ##Repeat elements
 
@@ -194,6 +201,12 @@ When saving partials, make sure their names start with an underscore and have th
      <%= render purchaseable.events, section: purchaseable %>
      
 This renders an array of events from the 'events' folder
+
+
+
+
+
+
 
 
 
