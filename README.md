@@ -227,6 +227,13 @@ This renders an array of events from the 'events' folder
 
     background: image_url("image.png");
 
+##Align fonts of different sizes to same baseline
+Use spans to let text resize from the same baseline.
+
+    <div style="height:100px; line-height:100px; background:#EEE;">
+      <span style="vertical-align:middle;">test</span>
+      <span style="font-size:2em; vertical-align:middle;">test</span>
+    </div>
 
 #Fonts
 
