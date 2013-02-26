@@ -186,6 +186,15 @@ The '' makes sure no text is used for the link.
 
      <%= button_to "This is a link button", root_path, :method => "get", class: 'btn' %>
 
+To link to a page that is created, that is specific, go to controllers and the correct controller file 
+(e.g. if the page is a "race" then go to the "races_controller"). Find the 
+
+    def <name of the html you are working in>
+    
+and copy the @race (or whatever has an @ in front of it). Then use this link code:
+
+    <%= button_to "Back", race_path(@race), :method => "get", class: 'btn' %>
+
 ##Repeat elements
 
     <% 3.times do %>
