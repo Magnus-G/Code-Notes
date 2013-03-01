@@ -86,6 +86,11 @@ or
 
 
 
+
+
+
+
+
 #Installations
 
 ###Installing bourbon
@@ -224,23 +229,6 @@ On the specific page
           ...content...
      <% end %>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Images in html.erb
-
 ###Insert an image with a class
 
     <%= image_tag('divider_arrow.png', :class => "arrow") %>
@@ -271,7 +259,7 @@ On the specific page
 
 
 
-#CSS
+#SCSS
 
 ###CSS Image Assets
 
@@ -284,6 +272,23 @@ Use spans to let text resize from the same baseline.
       <span style="vertical-align:middle;">test</span>
       <span style="font-size:2em; vertical-align:middle;">test</span>
     </div>
+
+Can't find an id or class in ruby?
+Looking for flash_success could be in the format:
+
+     flash[:success]
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Fonts
 
