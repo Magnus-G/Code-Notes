@@ -29,11 +29,11 @@ With the command line tool, make sure you are have navigated to the project fold
 In your browser, go to localhost:3000/posts.
 To stop the server, hit ctrl-C.
 
-##Generate a controller and action
+###Generate a controller and action
 
     rails g controller <controller name> <action>
 
-##Change layout for entire Controller
+###Change layout for entire Controller
 
     class ProductsController < ApplicationController
       layout "inventory"
@@ -41,7 +41,7 @@ To stop the server, hit ctrl-C.
 
 In the 'layouts' folder under 'views' you can save different layout styles. In the controller you specify which layout will be used. 
 
-##Change layout for Controller ACTION
+###Change layout for Controller ACTION
 
     class ProductsController < ApplicationController
       def index
@@ -51,25 +51,25 @@ In the 'layouts' folder under 'views' you can save different layout styles. In t
 
 This is commonly used when ...
 
-##If "undefined method `body' for..."
+###If "undefined method `body' for..."
 
      rake db:migrate
 
-##If "database ... does not exist":
+###If "database ... does not exist":
 
     rake db:create db:migrate  
 
-##If server doesn't start: Migrate the database
+###If server doesn't start: Migrate the database
 
     bundle exec rake db:migrate  
 
 This needs to be written into the command line if development has been been working on the database and the server doesn't start. 
 
-##can't convert Symbol into Integer
+###can't convert Symbol into Integer
 
 restart server
 
-##psych errors. warning: already initialized constant ANY
+###psych errors. warning: already initialized constant ANY
 
      bundle exec rails s
      
@@ -86,9 +86,9 @@ or
 
 
 
+#Installations
 
-
-##Installing bourbon
+###Installing bourbon
 
 http://bourbon.io/
 Add the following line in your Gemfile:
@@ -110,7 +110,7 @@ Import Bourbon at the beginning of application.css.scss. All additional styleshe
     @import "bourbon";
     (any other imports below)
 
-##Installing Neat
+###Installing Neat
 
 http://neat.bourbon.io/
 First: Install Bourbon.
@@ -131,7 +131,7 @@ Within your application.css.scss file place the following on top:
     @import "bourbon";
     @import "neat";
 
-##Installing Bootstrap
+###Installing Bootstrap
 
 Simple and quick way is to download the customized css file from the bootstrap site, rename it to bootstrap.css.scss and import it in the application.css.scss file after bourbon and neat:
 
@@ -150,7 +150,7 @@ Simple and quick way is to download the customized css file from the bootstrap s
 
 #HTML.ERB
 
-##Create a text link
+###Create a text link
 http://guides.rubyonrails.org/routing.html
 
     <%= link_to 's', terms_path %>
@@ -163,30 +163,30 @@ e.g.
 for the link to the page "terms" under the folder "welcome".
 Restart server after updating the rb file.
 
-##Image as link, declared in the HTML
+###Image as link, declared in the HTML
 
     <%= link_to root_path, :id => "root" do %>
       <img />
     <% end %>
 
-##Image as link, declared in the SCSS
+###Image as link, declared in the SCSS
 
     <%= link_to('', root_path, class: 'my_image') %>
 
 In the SCSS, use the "my_image" class to add background-image, or other styling.
 The '' makes sure no text is used for the link.
 
-##External link
+###External link
 
      <%= link_to("http://www.dn.se") do %>
        <img />   
      <% end %>
 
-##Internal link as button
+###Internal link as button
 
      <%= button_to "This is a link button", root_path, :method => "get", class: 'btn' %>
 
-##Internal link as a button (specific, generated page)
+###Internal link as a button (specific, generated page)
 
 To link to a page that is created, that is specific, go to controllers and the correct controller file 
 (e.g. if the page is a "race" then go to the "races_controller"). Find the 
@@ -197,13 +197,13 @@ and copy the @race (or whatever has an @ in front of it). Then use this link cod
 
     <%= button_to "Back", race_path(@race), :method => "get", class: 'btn' %>
 
-##Repeat elements
+###Repeat elements
 
     <% 3.times do %>
       <li></li>
     <% end %>
 
-##Render a partial
+###Render a partial
 
     <%= render 'folder/sidebar' %>
 
@@ -213,7 +213,7 @@ When saving partials, make sure their names start with an underscore and have th
      
 This renders an array of events from the 'events' folder
 
-##Area that appears on many pages
+###Area that appears on many pages
 In the layout/application.html.erb
 
     <%= yield :top_container %>
@@ -239,33 +239,45 @@ On the specific page
 
 
 
-#Images
+#Images in html.erb
 
-##Insert an image with a class
+###Insert an image with a class
 
     <%= image_tag('divider_arrow.png', :class => "arrow") %>
 
-##Insert an image using the asset pipeline
+###Insert an image using the asset pipeline
 
     <%= image_tag("foo.png") %>
 
 
 
-##Linking Javascript assets
+###Linking Javascript assets
 
     <%= javascript_include_tag "main", "columns" %>
 
-##Linking Stylesheet assets
+###Linking Stylesheet assets
 
     <%= stylesheet_link_tag "main", "columns" %>
 
+
+
+
+
+
+
+
+
+
+
+
+
 #CSS
 
-##CSS Image Assets
+###CSS Image Assets
 
     background: image_url("image.png");
 
-##Align fonts of different sizes to same baseline
+###Align fonts of different sizes to same baseline
 Use spans to let text resize from the same baseline.
 
     <div style="height:100px; line-height:100px; background:#EEE;">
@@ -275,7 +287,7 @@ Use spans to let text resize from the same baseline.
 
 #Fonts
 
-##Fontello
+###Fontello
 
 http://fontello.com/
 
@@ -306,26 +318,41 @@ In the SCSS, make sure all the file types are called for:
     
     .icon-export:before { content: '\e715'; } /* '' */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Forms
 
-##Formtastic
+###Formtastic
 
 http://rdoc.info/github/justinfrench/formtastic
 
-###Changing a label for an input
+####Changing a label for an input
 
     <%= f.input :defaultname, label: 'Not the default name' %>
 
 If 'label:' is not used the label will read whatever the default name is.
 
-###Number of rows for text area
+####Number of rows for text area
 
     <%= f.input :textareaname, input_html: {rows: 10} %>
 
 input_html: can be used for other things such as disabling text fields. 
 
 
-##Simpleform
+###Simpleform
 
 https://github.com/plataformatec/simple_form
 
