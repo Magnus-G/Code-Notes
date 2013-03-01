@@ -273,7 +273,7 @@ Use spans to let text resize from the same baseline.
       <span style="font-size:2em; vertical-align:middle;">test</span>
     </div>
 
-Can't find an id or class in ruby?
+###Can't find an id or class in ruby?
 Looking for flash_success could be in the format:
 
      flash[:success]
