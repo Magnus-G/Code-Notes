@@ -1,7 +1,7 @@
 #Rails
 
 
-##Creating a Rails project
+###Creating a Rails project
 With the command line, navigate to where you want the project folder to be generated (e.g. documents/my_rails_projects/) and type the following to create a project called project_name: 
      
     rails new project_name
