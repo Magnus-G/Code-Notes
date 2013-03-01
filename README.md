@@ -213,6 +213,20 @@ When saving partials, make sure their names start with an underscore and have th
      
 This renders an array of events from the 'events' folder
 
+##Area that appears on many pages
+In the layout/application.html.erb
+
+    <%= yield :top_container %>
+
+On the specific page
+
+     <% content_for :top_container do %>
+          ...content...
+     <% end %>
+
+
+
+
 
 
 
