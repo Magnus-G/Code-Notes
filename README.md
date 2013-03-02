@@ -77,6 +77,13 @@ or
 
      gem uninstall psych
 
+###[BUG] Segmentation fault
+uninstall sqlite3 and reinstall. 
+     gem uninstall sqlite3
+     gem install sqlite3
+     bundle install
+Use ruby 1.9.3
+     rvm use ruby-1.9.3-p194
 
 
 
