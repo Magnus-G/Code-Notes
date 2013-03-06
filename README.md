@@ -51,6 +51,31 @@ In the 'layouts' folder under 'views' you can save different layout styles. In t
 
 This is commonly used when ...
 
+###Push to staging
+
+     git remote show
+
+Result should say "origin" as well as "staging". If not "staging" then type:
+
+     git remote add staging git@heroku.com:projectname-staging.git
+     
+Try git remote show again. Then push master to staging:
+
+     git push staging master
+
+
+
+
+
+
+
+
+
+
+
+
+#Rails Issues
+
 ###If "undefined method `body' for..."
 
      rake db:migrate
@@ -87,7 +112,6 @@ uninstall sqlite3 and reinstall.
 Use ruby 1.9.3
 
      rvm use ruby-1.9.3-p194
-
 
 
 
